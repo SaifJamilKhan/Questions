@@ -38,8 +38,11 @@ Implement a Queue with a stack in n complexity
 Find the # of islands in a matrix of 1s and 0s where 1 represents land and 0 is water
 Ex  
 0 1 1 0 0 1
+
 0 0 0 0 0 0
+
 0 1 0 0 0 1
+
 0 1 1 0 0 1 
 
 That contains 4 islands
