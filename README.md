@@ -46,7 +46,7 @@ You can solve this by putting the negative numbers in a sorted array and the pos
 Implement a stack with an Arraylist
 
 Implement a Queue with a stack in n complexity
-`  class Stack {
+`    class Stack {
 
         ArrayList<Integer> contents = new ArrayList<>();
 
@@ -56,7 +56,6 @@ Implement a Queue with a stack in n complexity
 
         public int pop() {
             if(contents.isEmpty()) {
-                Log.e("saif", "stack is empty");
                 return 0;
             }
 
@@ -81,7 +80,6 @@ Implement a Queue with a stack in n complexity
 
         public int pop() {
             if(first.isEmpty() && second.isEmpty()) {
-                Log.e("saif", "queue is empty");
                 return 0;
             }
 
@@ -89,10 +87,8 @@ Implement a Queue with a stack in n complexity
                 while(!first.isEmpty()) {
                     second.push(first.pop());
                 }
-                return first.pop();
-            } else {
-                return second.pop();
             }
+            return second.pop();
         }
     }'
 Given a sorted array of all ints from 0-51, return a shuffled array
