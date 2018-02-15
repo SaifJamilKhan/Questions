@@ -90,7 +90,8 @@ Implement a Queue with a stack in n complexity
             }
             return second.pop();
         }
-    }'
+    }
+`   
 Given a sorted array of all ints from 0-51, return a shuffled array
 
 
@@ -108,7 +109,29 @@ Ex
 That contains 4 islands
 
 ### Splunk
+
+How many ways can you get to the integer n if you can take 1 or 2 steps every time
+4 = 1111, 22 , 112, 221, 122 
+3 = 111, 12, 21
+2 = 2 ,11
+1 = 1
+
+Answer is fibonachi 
+
 ### Uber
+
+Implement a quad tree which is populated by an 2n x 2n input matrix.
+
 ### Facebook
+in an array of integers move all the zeros to the right in n time and n space complexity
+[2,3,0,1,0,0,23] -> [2,3,1,23,0,0,0]
+
+Implement a queue using a byte array of static size in n space and constant time complexity. 
+
 ### Carrot
+
+Given a binary tree create a hashmap that allows you to look up if a node is an ancestor of another node in constant time. Answer includes depth first pre order traversal.
+
 ### Stripe 
+
+Code an isAllowed function that allows users to process a theoretical task twice every 5 seconds and denys if they request more than that. 
